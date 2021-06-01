@@ -1,7 +1,7 @@
 streamlit==0.61.0
 yfinance
 datetime
-matplotlib==3.3.3
-pystan==2.17.0.0
+
 plotly==4.14.3
-fbprophet==0.7.1
+fbprophet==0.6
+streamlit==0.60.0
