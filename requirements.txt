@@ -1,7 +1,7 @@
 plotly
 streamlit
 yfinance
-fbprophet==0.6
+prophet
 datetime
 pystan
 ephem
