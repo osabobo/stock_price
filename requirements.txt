@@ -4,3 +4,4 @@ yfinance
 fbprophet==0.6
 datetime
 pystan
+ephem
