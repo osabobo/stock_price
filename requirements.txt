@@ -4,3 +4,4 @@ datetime
 plotly==4.14.3
 fbprophet==0.6
 streamlit==0.60.0
+numpy==1.18.4
