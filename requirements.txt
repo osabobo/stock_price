@@ -1,7 +1,7 @@
 
 yfinance
-
+pystan
 plotly==4.14.3
-fbprophet==0.7.1
-streamlit==0.60.0
+fbprophet
+streamlit
 numpy==1.18.4
