@@ -1,5 +1,6 @@
 
 yfinance
+ephem
 pystan
 plotly==4.14.3
 fbprophet
