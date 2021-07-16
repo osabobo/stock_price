@@ -5,9 +5,6 @@ import numpy as np
 from prophet import Prophet
 from prophet.plot import plot_plotly
 from plotly import graph_objs as go
-#from sklearn.preprocessing import StandardScaler
-#from keras.models import Sequential
-#from keras.layers import Dense, Dropout, LSTM
 from plotly import graph_objs as go
 
 from PIL import Image
