@@ -26,12 +26,8 @@ def import_data(stocks):
     data.reset_index(inplace=True)
     return data
 data_import=st.text("load data...")
-
-
 data=import_data(selected_stock)
 data_import.text("loading data...done")
-
-
 st.subheader("Raw data")
 st.write(data.head())
 st.write(data.tail())
