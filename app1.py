@@ -3,8 +3,8 @@ from datetime import datetime
 import yfinance as yt
 import pandas as pd
 #import pandas_datareader.data as web
-from prophet import Prophet
-from prophet.plot import plot_plotly
+from fbprophet import Prophet
+from fbprophet.plot import plot_plotly
 from plotly import graph_objs as go
 
 
