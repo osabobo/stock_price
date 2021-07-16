@@ -11,6 +11,8 @@ from PIL import Image
 image = Image.open('index1.jpg')
 st.image(image)
 st.write("This App predict Amazon Stock price")
+n_years=st.slider("Years of prediction:how many years do you need for future?",1,5)
+periods=n_years*365
 st.set_option('deprecation.showfileUploaderEncoding', False)
 file_upload = st.file_uploader("Upload csv file for predictions", type="csv")
 
@@ -35,7 +37,7 @@ if file_upload is not None:
         st.plotly_chart(fig)
 
     plot_raw_data()
-    periods=365
+    
     data_train=data[["Date","Adj Close"]]
     data_train=data.rename(columns={"Date": "ds", "Adj Close": "y"})
     m = Prophet()
